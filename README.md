@@ -28,15 +28,11 @@ A romantic website that shows today's date with special images based on the day 
 
 ```
 Find Your Date/
-├── index.html          # Main HTML file
-├── styles.css          # CSS styles and animations
-├── script.js           # JavaScript functionality
-├── README.md           # This file
-└── WhatsApp Images/    # Your romantic images
-    ├── WhatsApp Image 2025-07-17 at 12.01.59.jpeg
-    ├── WhatsApp Image 2025-07-17 at 12.01.59 (1).jpeg
-    ├── WhatsApp Image 2025-07-17 at 12.01.59 (2).jpeg
-    └── WhatsApp Image 2025-07-17 at 12.01.59 (3).jpeg
+├── index.html         
+├── styles.css         
+├── script.js           
+├── README.md           
+
 ```
 
 ## Image Schedule
