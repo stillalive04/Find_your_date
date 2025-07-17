@@ -1,6 +1,6 @@
 # Find Your Date ❤️
 
-A romantic website that shows today's date with special images based on the day and time.
+A romantic website
 
 
 
