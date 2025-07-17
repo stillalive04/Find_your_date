@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Your Date ❤️</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="hearts">
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+        </div>
+        
+        <header>
+            <h1 class="title">Find Your Date</h1>
+            <p class="subtitle">Click to discover today's special moment</p>
+        </header>
+
+        <main>
+            <div class="date-button-container">
+                <button class="date-button" onclick="showDatePopup()">
+                    <span class="button-text">Click for Today's Date</span>
+                    <span class="heart-icon">❤️</span>
+                </button>
+            </div>
+        </main>
+
+        <!-- Date Popup Modal -->
+        <div id="dateModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <div class="modal-header">
+                    <h2 id="modalTitle">Today's Date</h2>
+                </div>
+                <div class="modal-body">
+                    <div class="date-display">
+                        <span id="currentDate"></span>
+                    </div>
+                    <div class="image-container">
+                        <img id="dateImage" src="" alt="Today's special image">
+                    </div>
+                    <div class="message">
+                        <p id="dateMessage">Every day is special when we're together!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
